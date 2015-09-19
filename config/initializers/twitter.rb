@@ -1,3 +1,5 @@
+#ActiveSupport.use_standard_json_time_format = true
+
 module TwitterApi
   @twitter = Twitter::REST::Client.new do |config|
     config.consumer_key = ENV['twitter_consumer_key']

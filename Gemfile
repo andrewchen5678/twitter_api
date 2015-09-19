@@ -51,4 +51,6 @@ gem 'twitter'
 
 gem "figaro"
 
+gem 'rails-api'
 
+#gem 'pry-byebug', '~> 3.2.0'
